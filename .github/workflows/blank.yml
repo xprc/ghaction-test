@@ -31,11 +31,11 @@ jobs:
           echo Hello, world!
           curl https://ifconfig.me
           time curl -I https://www.projectoms.com/pc/
-          curl 000000000000000000000000000000000
+          echo "000000000000000000000000000000000"
           time curl -I https://assets.projectoms.com/
-          curl 000000000000000000000000000000000
+          echo 000000000000000000000000000000000
           time curl -I https://bucket.projectoms.com/
-          curl 000000000000000000000000000000000
+          echo 000000000000000000000000000000000
           time curl -I https://s.tp.je/150
           
           
