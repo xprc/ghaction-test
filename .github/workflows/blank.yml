@@ -29,6 +29,5 @@ jobs:
       - name: Run a one-line script
         run: |
           echo Hello, world!
-          curl https://api.ip.sb/ip
-          ping projectoms.com -c 5
+          curl https://ifconfig.me
           time curl -I https://www.projectoms.com/pc/
